@@ -252,6 +252,87 @@
             ]
         },
         {
+            "id": "https://engesen.github.io/EN.FU/images/karolina-kolodziejczak-NRDfttoK8qw-unsplash/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "karolina-kolodziejczak-NRDfttoK8qw-unsplash"
+                ]
+            },
+            "height": 960,
+            "width": 640,
+            "items": [
+                {
+                    "id": "https://engesen.github.io/EN.FU/images/karolina-kolodziejczak-NRDfttoK8qw-unsplash/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://engesen.github.io/EN.FU/images/karolina-kolodziejczak-NRDfttoK8qw-unsplash/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://engesen.github.io/EN.FU/images/karolina-kolodziejczak-NRDfttoK8qw-unsplash/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 20,
+                                                "height": 30
+                                            },
+                                            {
+                                                "width": 40,
+                                                "height": 60
+                                            },
+                                            {
+                                                "width": 80,
+                                                "height": 120
+                                            },
+                                            {
+                                                "width": 160,
+                                                "height": 240
+                                            },
+                                            {
+                                                "width": 320,
+                                                "height": 480
+                                            },
+                                            {
+                                                "width": 640,
+                                                "height": 960
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 640,
+                                        "@id": "https://engesen.github.io/EN.FU/images/karolina-kolodziejczak-NRDfttoK8qw-unsplash",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 960,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://engesen.github.io/EN.FU/images/karolina-kolodziejczak-NRDfttoK8qw-unsplash/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://engesen.github.io/EN.FU/images/oneone/canvas/",
             "type": "Canvas",
             "label": {
