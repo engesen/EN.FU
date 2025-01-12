@@ -1,0 +1,153 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://engesen.github.io/EN.FU/manifests/manifestENFU.json",
+  "@type" : "sc:Manifest",
+  "label" : "task of TMDRA",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "project for module 4",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "EN.FU",
+  "sequences" : [ {
+    "@id" : "http://bab1b12a-bc6f-4ce9-a475-d1a693e86e94",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://fbda49d0-d8d1-4a5d-9725-eb98902d6caa",
+      "@type" : "sc:Canvas",
+      "label" : "canvas 1",
+      "height" : 640,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://46412d1d-2b58-4848-92c1-c5d27eadc2fd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://engesen.github.io/EN.FU/images/oneone/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://engesen.github.io/EN.FU/images/oneone",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 640,
+          "width" : 640
+        },
+        "on" : "http://fbda49d0-d8d1-4a5d-9725-eb98902d6caa"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://aaa62bf4-bde0-4b0a-8c92-54ce4dcb9216",
+      "@type" : "sc:Canvas",
+      "label" : "canvas 2",
+      "height" : 960,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a0ae63ff-d7cb-490d-bce0-b0703ad3d497",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://engesen.github.io/EN.FU/images/twotwo/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://engesen.github.io/EN.FU/images/twotwo",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 960,
+          "width" : 640
+        },
+        "on" : "http://aaa62bf4-bde0-4b0a-8c92-54ce4dcb9216"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://2d4dfd90-5889-44c5-8c30-8c613512e7b8",
+      "@type" : "sc:Canvas",
+      "label" : "canvas 3",
+      "height" : 960,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://81a5d287-c24b-4305-8064-8133155e9395",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://engesen.github.io/EN.FU/images/threethree/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://engesen.github.io/EN.FU/images/threethree",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 960,
+          "width" : 640
+        },
+        "on" : "http://2d4dfd90-5889-44c5-8c30-8c613512e7b8"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b998f669-76fa-468a-987b-933645a6244c",
+      "@type" : "sc:Canvas",
+      "label" : "canvas 4",
+      "height" : 744,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://63ccc5e7-db51-4cfa-a62d-90add08d40bb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://engesen.github.io/EN.FU/images/fourfour/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://engesen.github.io/EN.FU/images/fourfour",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 744,
+          "width" : 640
+        },
+        "on" : "http://b998f669-76fa-468a-987b-933645a6244c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://793124b8-2c12-4f70-af04-56817984d664",
+      "@type" : "sc:Canvas",
+      "label" : "canvas 5",
+      "height" : 800,
+      "width" : 640,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d0cb78e4-44c5-4459-b18e-14ad1c3d705f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://engesen.github.io/EN.FU/images/fivefive/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://engesen.github.io/EN.FU/images/fivefive",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 800,
+          "width" : 640
+        },
+        "on" : "http://793124b8-2c12-4f70-af04-56817984d664"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
